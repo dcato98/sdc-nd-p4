@@ -131,7 +131,7 @@ Bonus! Here are plots of the radius of curvature and offset from center measurem
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-The image processing pipeline is defined and executed in cells 11 and 12, respectively, in [pipeline.ipynb](./scripts/pipeline.ipynb). Here is an example of the pipeline output on a test image:
+The image processing pipeline is defined and executed in cells 11 and 12, respectively, in [pipeline.ipynb](./scripts/pipeline.ipynb). Here is an example of the pipeline output on a test image (note that, in this frame, the average radius-of-curvature is 4652 m and the car offset from center is 0.37 m):
 
 ![annotated_laneline][image7]
 
