@@ -18,9 +18,6 @@ class Camera():
         # undistort an image from a calibrated camera 
         undistorted = camera.undistort(image)
         
-        # save camera image to file
-        camera.save_image(undistorted, 'image1.jpg', subfolder='undistorted')
-        
         # save camera to file
         camera.save()
         
